@@ -1,0 +1,3 @@
+[submodule "lite-plugins"]
+	path = data/available-plugins
+	url = https://github.com/rxi/lite-plugins.git

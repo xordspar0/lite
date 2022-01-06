@@ -1,0 +1,1 @@
+../available-plugins/plugins/language_nginx.lua
