@@ -351,6 +351,8 @@ function core.on_event(type, ...)
         core.root_view:open_doc(doc)
       end
     end
+  elseif type == "focuslost" then
+    core.root_view:on_focus_lost(...)
   elseif type == "quit" then
     core.quit()
   end
